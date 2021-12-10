@@ -69,7 +69,7 @@ input[type='checkbox']:checked:after {
 /* Una buena practica tener estilos centralizados */
 .contenedor {
   position: relative;
-  width: 800px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -98,8 +98,9 @@ input[type='checkbox']:checked:after {
 }
 
 .cafes {
+  margin-top: 60px;
+  margin-bottom: -60px;
   color: #412B19;
-  margin-bottom: 60px;
 }
 
 /* SELECTOR DESCENDENTE */
@@ -179,9 +180,8 @@ input[type='checkbox']:checked:after {
 .left {
   float: left;
   position: relative;
-
+  top: -120px;
 }
-
 
 .contenedor-cafe-a {
   position: relative;
@@ -312,6 +312,5 @@ i {
 
 .tabla {
   margin: 50px 0;
+  
 }
-
-/* Tablas */

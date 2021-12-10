@@ -1,0 +1,56 @@
+/* Tablas */
+
+/* 768 para tables y esta dentro de los 800px que vamos a trabajar */
+@media screen and (max-width: 800px) {
+    /* Portada */
+    .titulo {
+      font-size: 45px;
+      margin-top:0;
+    }
+    .title-a {
+      font-size: 18px;
+    }
+    .portada {
+      height: auto;
+    }
+  
+    .portada .button {
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+    /* fin de Portada */
+  
+    /* Cafes */
+    .cafes {
+      text-align: center;
+      margin: 0;
+    }
+    .right, .left {
+      float: none;
+      position: static;
+    }
+  
+    .contenedor-cafe-a {
+      position: static;
+      padding:0;
+    }
+  
+    .contenedor-cafe-b {
+      margin: 0;
+      position: static;
+    }
+  
+    .cafe.granoscafe {
+      height: auto;
+    }
+  
+    .cafe li {
+      list-style: none;
+    }
+  
+    .title-b {
+      margin: 0;
+    }
+    /* Fin de Cafes*/
+  
+  }
